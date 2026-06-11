@@ -1,116 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us - Cloud Lab Group 6</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CloudTeam Alpha – Contact</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
 </head>
 <body>
-    <nav>
-    <a class="nav-logo" href="#">
-      <div class="nav-logo-icon"><img src="passgen_logo.svg"></div>
-      <span>PASSFORGE</span>
-    </a>
+
+  <nav>
+    <div class="nav-logo">Cloud<span>Team</span> <span>Alpha</span></div>
     <ul class="nav-links">
       <li><a href="index.html">Home</a></li>
       <li><a href="about.html">About</a></li>
-      <li><a href="contact.html">Contact</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
     </ul>
-    <span class="nav-tag">CLOUD COMPUTING</span>
   </nav>
-  <section id="contact">
-    <div class="contact-inner">
-      <div class="contact-left">
-        <h2 class="contact-heading">
-          <span class="highlight">Reach</span> <span class="normal">Out<br>To Us</span>
-        </h2>
-        <p class="contact-desc">looking for the best site to securely<br>generate your passwords</p>
 
-        <div class="contact-info-item">
-          <div class="contact-icon">
-            <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
-          </div>
-          passforge@gmail.com
-        </div>
-
-        <div class="contact-info-item">
-          <div class="contact-icon">
-            <svg viewBox="0 0 24 24"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1v3.5c0 .6-.4 1-1 1H6.6c-.6 0-1-.4-1-1V6c0-1.1.9-2 2-2h3.5c.6 0 1 .4 1 1s-.4 1-1 1H8.6c-.6 0-1 .4-1 1v3.5c0 .6.4 1 1 1h3.5c.6 0 1-.4 1-1v-3.5c0-.6.4-1 1-1s1 .4 1 1v3.5c0 1.1-.9 2-2 2h-3.5c-1.1 0-2-.9-2-2V6c0-.6-.4-1-1-1H6c-.6 0-1 .4-1 1v11c0 1.1.9 2 2 2h3.5c.6 0 1 .4 1 1s-.4 1-1 1H6c-1.1 0-2-.9-2-2V6z"/></svg>
-          </div>
-          +233 00-000-0000
-        </div>
-      </div>
-
-      <div class="contact-right">
-        <div class="form-group">
-          <label class="form-label">Name</label>
-          <input type="text" class="form-input" placeholder="" />
-        </div>
-        <div class="form-group">
-          <label class="form-label">Email</label>
-          <input type="email" class="form-input" placeholder="" />
-        </div>
-        <div class="form-group">
-          <label class="form-label">Message</label>
-          <textarea class="form-textarea"></textarea>
-        </div>
-        <button class="submit-btn">Submit</button>
-      </div>
-    </div>
+  <section class="hero" style="padding: 3.5rem 2rem 3rem;">
+    <div class="hero-eyebrow">Reach Out</div>
+    <h1>Get in <em>Touch</em></h1>
+    <p>Have a question about our project? We'd love to hear from you.</p>
   </section>
-   <!-- FOOTER -->
+
+  <div class="section">
+    <div class="section-label">Contact Us</div>
+    <div class="section-title">We're Here to Help</div>
+    <div class="section-divider"></div>
+
+    <div class="contact-grid">
+      <div class="contact-info">
+        <div class="contact-item">
+          <div class="contact-icon">📧</div>
+          <div>
+            <h4>Email</h4>
+            <p>cloudteam.alpha@fakeemail.com</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">🏫</div>
+          <div>
+            <h4>Institution</h4>
+            <p>Ghana Communication Technology University</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">💻</div>
+          <div>
+            <h4>GitHub Repository</h4>
+            <p>github.com/GentlemanNASA/cloud-lab-group-project</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">📅</div>
+          <div>
+            <h4>Submission Deadline</h4>
+            <p>11th June, 2026</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-form">
+        <div class="section-label" style="margin-bottom:1rem;">Send a Message</div>
+        <div class="form-group">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" placeholder="e.g. Kwame Mensah" />
+        </div>
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" placeholder="you@example.com" />
+        </div>
+        <div class="form-group">
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" placeholder="e.g. Project Enquiry" />
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" placeholder="Write your message here..."></textarea>
+        </div>
+        <button class="btn btn-primary" style="width:100%;" onclick="handleSubmit()">Send Message</button>
+        <p id="form-feedback" style="margin-top:0.75rem;font-size:0.85rem;color:var(--accent);display:none;text-align:center;"></p>
+      </div>
+    </div>
+  </div>
+
   <footer>
-    <div class="footer-grid">
-      <div class="footer-brand">
-        <div class="footer-logo">
-          <div class="footer-logo-icon"><img src="passgen_logo.svg"></div>
-          <span>PASSFORGE</span>
-        </div>
-        <p class="footer-tagline">Your password,<br>forged in seconds.</p>
-      </div>
-
-      <div>
-        <p class="footer-col-title">Quick Links</p>
-        <ul class="footer-links">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="#contact">Contact Us</a></li>
-        </ul>
-      </div>
-
-      <div>
-        <p class="footer-col-title">Quick Links</p>
-        <div class="footer-contact-item">
-          <div class="footer-contact-icon">
-            <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
-          </div>
-          passforge@gmail.com
-        </div>
-        <div class="footer-contact-item">
-          <div class="footer-contact-icon">
-            <svg viewBox="0 0 24 24"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1v3.5c0 .6-.4 1-1 1H6.6c-.6 0-1 .4-1 1V6c0-1.1.9-2 2-2h3.5c.6 0 1 .4 1 1s-.4 1-1 1H8.6c-.6 0-1 .4-1 1v3.5c0 .6.4 1 1 1h3.5c.6 0 1-.4 1-1v-3.5c0-.6.4-1 1-1s1 .4 1 1v3.5c0 1.1-.9 2-2 2h-3.5c-1.1 0-2-.9-2-2V6c0-.6-.4-1-1-1H6c-.6 0-1 .4-1 1v11c0 1.1.9 2 2 2h3.5c.6 0 1 .4 1 1s-.4 1-1 1H6c-1.1 0-2-.9-2-2V6z"/></svg>
-          </div>
-          +233 00-000-0000
-        </div>
-      </div>
-    </div>
-
-    <div class="footer-bottom">
-      <div class="social-links">
-        <a class="social-link" href="#" aria-label="Facebook">f</a>
-        <a class="social-link" href="#" aria-label="Twitter">𝕏</a>
-        <a class="social-link" href="#" aria-label="Instagram">&#9671;</a>
-      </div>
-    </div>
+    <p><strong>CloudTeam Alpha</strong> &nbsp;·&nbsp; Cloud Computing Practical Lab 1 &nbsp;·&nbsp; &copy; 2026</p>
   </footer>
 
-    <script>
-        document.getElementById('contactForm').addEventListener('submit', function(e) {
-            e.preventDefault();
-            alert('Thank you for your message! We will get back to you soon.');
-            this.reset();
-        });
-    </script>
+  <script>
+    function handleSubmit() {
+      const name = document.getElementById('name').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const message = document.getElementById('message').value.trim();
+      const feedback = document.getElementById('form-feedback');
+
+      if (!name || !email || !message) {
+        feedback.style.color = '#d93025';
+        feedback.textContent = 'Please fill in your name, email, and message.';
+        feedback.style.display = 'block';
+        return;
+      }
+
+      feedback.style.color = 'var(--accent)';
+      feedback.textContent = '✓ Message sent! We\'ll get back to you soon.';
+      feedback.style.display = 'block';
+
+      document.getElementById('name').value = '';
+      document.getElementById('email').value = '';
+      document.getElementById('subject').value = '';
+      document.getElementById('message').value = '';
+    }
+  </script>
+
 </body>
 </html>

@@ -1,87 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us - Cloud Lab Group 6</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CloudTeam Alpha – About</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
 </head>
 <body>
-    <!-- NAV -->
+
   <nav>
-    <a class="nav-logo" href="#">
-      <div class="nav-logo-icon"><img src="passgen_logo.svg"></div>
-      <span>PASSFORGE</span>
-    </a>
+    <div class="nav-logo">Cloud<span>Team</span> <span>Alpha</span></div>
     <ul class="nav-links">
       <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
+      <li><a href="about.html" class="active">About</a></li>
       <li><a href="contact.html">Contact</a></li>
     </ul>
-    <span class="nav-tag">CLOUD COMPUTING</span>
   </nav>
-    <!-- ABOUT -->
-  <section id="about">
-    <h2 class="section-title">About Us</h2>
-    <p class="about-text">
-      Our Password Generator helps you create strong, secure, and random passwords instantly to keep your accounts safe online.<br/>
-      With customizable options and fast generation,<br/>
-      you can easily create passwords that are difficult to crack while protecting your personal information.
-    </p>
 
-    <h3 class="members-title">Group Members</h3>
-    <div class="members-grid">
-      <span class="member-name">Amirah Whitney Amoah</span>
-      <span class="member-name">Nathan Maglo</span>
-      <span class="member-name">Odai Caleb Affotey</span>
-      <span class="member-name">Samuel Nii Adotei Allotey</span>
-      <span class="member-name">Nyarko Godfred Owusu</span>
-    </div>
+  <section class="hero" style="padding: 3.5rem 2rem 3rem;">
+    <div class="hero-eyebrow">Who We Are</div>
+    <h1>About <em>Our Team</em></h1>
+    <p>Five students. One project. A shared goal: to understand cloud infrastructure from the ground up.</p>
   </section>
 
-    <footer>
-    <div class="footer-grid">
-      <div class="footer-brand">
-        <div class="footer-logo">
-          <div class="footer-logo-icon"><img src="passgen_logo.svg"></div>
-          <span>PASSFORGE</span>
-        </div>
-        <p class="footer-tagline">Your password,<br>forged in seconds.</p>
-      </div>
+  <div class="section">
+    <div class="section-label">The Group</div>
+    <div class="section-title">Meet CloudTeam Alpha</div>
+    <div class="section-divider"></div>
 
-      <div>
-        <p class="footer-col-title">Quick Links</p>
-        <ul class="footer-links">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="contact.html">Contact Us</a></li>
-        </ul>
+    <div class="team-grid">
+      <div class="team-card">
+        <div class="avatar">A</div>
+        <h3>Amirah Whitney Amoah</h3>
+        <div class="role">Group Leader</div>
       </div>
+      <div class="team-card">
+        <div class="avatar">B</div>
+        <h3>Samuel Nii Adotei Allotey</h3>
+        <div class="role">Repo Manager</div>
+      </div>
+      <div class="team-card">
+        <div class="avatar">C</div>
+        <h3>Odai Caleb Affotey</h3>
+        <div class="role">Design & Content</div>
+      </div>
+      <div class="team-card">
+        <div class="avatar">D</div>
+        <h3>Nyarko Gabriel Owusu</h3>
+        <div class="role">Design & Content</div>
+      </div>
+      <div class="team-card">
+        <div class="avatar">E</div>
+        <h3>Nathan Maglo</h3>
+        <div class="role">Design & Content</div>
+      </div>
+    </div>
+  </div>
 
-      <div>
-        <p class="footer-col-title">Quick Links</p>
-        <div class="footer-contact-item">
-          <div class="footer-contact-icon">
-            <svg viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
-          </div>
-          passforge@gmail.com
+  <div style="background: var(--off-white); border-top: 1px solid var(--light-grey); border-bottom: 1px solid var(--light-grey);">
+    <div class="section">
+      <div class="section-label">The Course</div>
+      <div class="section-title">Cloud Computing</div>
+      <div class="section-divider"></div>
+
+      <div class="card-grid">
+        <div class="card">
+          <div class="card-icon">📘</div>
+          <h3>Course Title</h3>
+          <p>Cloud Computing – Practical Lab 1: Static Website Deployment.</p>
         </div>
-        <div class="footer-contact-item">
-          <div class="footer-contact-icon">
-            <svg viewBox="0 0 24 24"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1v3.5c0 .6-.4 1-1 1H6.6c-.6 0-1 .4-1 1V6c0-1.1.9-2 2-2h3.5c.6 0 1 .4 1 1s-.4 1-1 1H8.6c-.6 0-1 .4-1 1v3.5c0 .6.4 1 1 1h3.5c.6 0 1-.4 1-1v-3.5c0-.6.4-1 1-1s1 .4 1 1v3.5c0 1.1-.9 2-2 2h-3.5c-1.1 0-2-.9-2-2V6c0-.6-.4-1-1-1H6c-.6 0-1 .4-1 1v11c0 1.1.9 2 2 2h3.5c.6 0 1 .4 1 1s-.4 1-1 1H6c-1.1 0-2-.9-2-2V6z"/></svg>
-          </div>
-          +233 00-000-0000
+        
+        <div class="card">
+          <div class="card-icon">🛠️</div>
+          <h3>Tools Used</h3>
+          <p> GitHub, GitHub Pages, HTML5, CSS3, and JavaScript for the front end.</p>
         </div>
       </div>
     </div>
+  </div>
 
-    <div class="footer-bottom">
-      <div class="social-links">
-        <a class="social-link" href="#" aria-label="Facebook">f</a>
-        <a class="social-link" href="#" aria-label="Twitter">𝕏</a>
-        <a class="social-link" href="#" aria-label="Instagram">&#9671;</a>
+  <div class="section">
+    <div class="section-label">Our Approach</div>
+    <div class="section-title">How We Worked Together</div>
+    <div class="section-divider"></div>
+    <div class="image-feature">
+      <div class="image-feature-text">
+        <h3>Collaboration via GitHub</h3>
+        <p>Every team member has access to our shared GitHub repository — <code style="background:var(--accent-light);padding:0.1rem 0.4rem;border-radius:4px;font-size:0.85rem;">cloud-lab-group-project</code>.</p>
+        <br/>
+        <p>We divided responsibilities clearly: the group leader coordinated tasks, the repository manager handled the GitHub setup and branches, and the remaining members focused on page design and content creation.</p>
+        <br/>
+        <p>All contributions are tracked via commits so every member's work is visible and accountable.</p>
+      </div>
+      <div class="image-placeholder">
+        👥
+        <p>Team collaboration photo</p>
       </div>
     </div>
+  </div>
+
+  <footer>
+    <p><strong>CloudTeam Alpha</strong> &nbsp;·&nbsp; Cloud Computing Practical Lab 1 &nbsp;·&nbsp; &copy; 2026</p>
   </footer>
+
 </body>
 </html>
