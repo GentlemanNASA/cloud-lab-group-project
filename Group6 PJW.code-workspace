@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../../Group6 PJW"
+		},
+		{
+			"name": "cloud-lab-group-project",
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "cloud-lab-group-project"
+	}
+}
